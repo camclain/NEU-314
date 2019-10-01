@@ -17,4 +17,6 @@ function extractRGB(String)
     R = image[:,:,1]
     G = image[:,1,:]
     B = image[1,:,:]
+
+    println("Reset with git reset --mixed")
 end
